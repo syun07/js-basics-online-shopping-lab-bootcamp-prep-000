@@ -9,13 +9,38 @@ function setCart(c) {
   return cart;
 }
 
+
 function addToCart(item) {
- // write your code here
+  
+  var price = (Math.floor(Math.random() * 100) + 1);
+  
+  var itemObj = {[item]: price};
+  
+  cart.push(itemObj);
+  console.log(`${item} has been added to your cart.`);
+  
+  return cart;
 }
 
+// addToCart('apples');
+// addToCart('bananas');
+
+
 function viewCart() {
-  // write your code here
+  if (cart.length > 0) {
+    for (let i = 0; i < cart.length; i++) {
+      
+    }
+  }
+  
+  if (cart.length === 1) {
+    return `In your cart, you have ${item} at $${price}.`;
+  }
+  
+  if (cart.length === 0) {
+  }
 }
+
 
 function total() {
   // write your code here
