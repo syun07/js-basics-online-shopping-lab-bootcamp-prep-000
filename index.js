@@ -30,7 +30,7 @@ addToCart('bananas');
 function viewCart() {
   
   var list = [];
-  list.push('')
+  list.push(item)
   
   if (cart.length === 1) {
     return `In your cart, you have ${item} at $${price}.`;
