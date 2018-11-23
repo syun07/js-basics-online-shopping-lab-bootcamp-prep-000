@@ -29,6 +29,9 @@ addToCart('bananas');
 
 function viewCart() {
   
+  var cartList = [];
+  
+  
   if (cart.length === 1) {
     return `In your cart, you have ${item} at $${price}.`;
   
