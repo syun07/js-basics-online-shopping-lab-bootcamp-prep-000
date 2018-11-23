@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 
-const price = (Math.floor(Math.random() * 100) + 1);
+var price = (Math.floor(Math.random() * 100) + 1);
 
 function addToCart(item) {
   
