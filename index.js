@@ -23,8 +23,8 @@ function addToCart(item) {
   return cart;
 }
 
-// addToCart('apples');
-// addToCart('bananas');
+addToCart('apples');
+addToCart('bananas');
 
 
 function viewCart() {
