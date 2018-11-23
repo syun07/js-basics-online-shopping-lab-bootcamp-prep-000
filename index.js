@@ -31,13 +31,13 @@ function viewCart() {
     for (let i = 0; i < cart.length; i++) {
       
     }
-  }
-  
-  if (cart.length === 1) {
+  } else if (cart.length === 1) {
     return `In your cart, you have ${item} at $${price}.`;
-  }
   
-  if (cart.length === 0) {
+  } else if (cart.length === 2) {
+    return  
+    
+  } else if (cart.length === 0) {
     return 'Your shopping cart is empty.';
   }
 }
